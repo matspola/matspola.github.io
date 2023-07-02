@@ -1,0 +1,265 @@
+body{
+	font-family: Times New Roman;
+}
+.heart{
+  padding: 12px;
+  min-width: 40px;
+  min-height: 34px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 12px;
+  cursor: pointer;
+}
+
+.heart .likes-number {
+  margin-left: 24px;
+  line-height: 14px;
+}
+
+.heart2 {
+  padding: 12px;
+  min-width: 40px;
+  min-height: 34px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 12px;
+  cursor: pointer;
+}
+
+.heart3, .heart4, .heart5, .heart6 {
+  padding: 12px;
+  min-width: 40px;
+  min-height: 34px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 12px;
+  cursor: pointer;
+}
+
+
+.izbr {
+  padding: 12px;
+  min-width: 40px;
+  min-height: 34px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 12px;
+  text-align: left;
+}
+
+.izbr-number{
+		text-align: right;
+}
+
+.serd {
+	text-align: right;
+	padding: 12px;
+  min-width: 40px;
+  min-height: 34px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 12px;
+}
+
+
+
+div.container{
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.view {
+	border: 3px solid black;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+}
+.view .mask {
+	width: 300px;
+	height: 376px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+.view img {
+	display: block;
+	position: relative;
+}
+.view h2 {
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	position: relative;
+	font-size: 25px;
+	padding: 10px;
+	margin-top: 20px 0 0 0;
+}
+.view p{
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+}
+.view a.info{
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 10px;
+	background: black;
+	color: white;
+	font-size: 10px;
+	text-transform: uppercase;
+	box-shadow: 0 0 1px black;
+}
+.view a.info:hover {
+	box-shadow: 0 0 5px black;
+}
+.view-first img{
+	width: 300px;
+	height: 376px;
+	transition: all 0.2s linear;
+	height: auto;
+}
+.view-first .mask {
+	opacity: 0;
+	background-color: white;
+	transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+	transform: translateY(-100px);
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+.view-first p {
+	transform: translateY(100px);
+	opacity: 0;
+	transition: all 0.2s linear;
+}
+.view-first a.info {
+	opacity: 0;
+	transition: all 0.2s ase-in-out;
+}
+.view-first:hover img{
+	transform: scale(1.1);
+}
+.view-first:hover .mask{
+	opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info{
+	opacity: 1;
+	transform: translateY(0);
+}
+.view-first:hover p{
+	transition-delay: 0.1s;
+}
+.view-first:hover a.info{
+	transition-delay: 0.2s;
+}
+
+
+
+
+.border {
+	height: 3px;
+	background-color:#000000;
+}
+.propusk {
+	height:25px;
+}
+.logoph{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.post{
+	width: 300px;
+	height: auto;
+}
+.row1{
+	margin-top:30px;
+}
+.row2{
+	margin:15px;
+}
+.logo{
+	font-size: 25px;
+	line-height: 1em;
+	top: 50%;
+}
+.rass{
+	line-height: 1em;
+	color: #686868;
+}
+.podrobnee{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.svaz {
+	margin-top:30px;
+	margin-bottom:30px;
+	font-size: 35px;
+}
+.color {
+	color:#1E90FF;
+}
+.razr{
+	line-height: 1em;
+}
+.photo{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.img{
+	height: 15px;
+	width: 15px;
+	margin-right:20px;
+	margin-top:20px;
+}
+.imgt{
+	height: 13px;
+	width: 13px;
+	margin-right:20px;
+	margin-top:20px;
+}
+ #Subject{
+ 	width:405px;
+ }
+ #comment{
+ 	width:405px;
+ }
+input{
+	margin-top: 20px;
+}
+textarea{
+	margin-top: 20px;
+}
+#btn {
+	position: relative;
+	left: 42%;
+	transform: translate(-50%, 0);
+}
+.men:hover {
+	color:#1E90FF;
+}
